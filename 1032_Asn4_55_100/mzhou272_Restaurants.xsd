@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schema xmlns:xsi= "http://www.w3.org/2001/XMLSchema">
+	<xsi:element name="RestaurantList">
+		<xsi:complexType>
+			<xsi:sequence>
+
+				<!-- restaurant - Complex preference 还没搞 -->
+				<xsi:element name="Restaurant" minOccurs="0" maxOccurs="unbounded">
+					<xsi:complexType>
+						<xsi:sequence>
+							<!-- Restaurant Name - simple -->
+							<!-- restID primary key simple -->
+							<!-- Cuisine simple -->
+							<xsi:element name="RestaurantName" type="xsi:string"/>
+							<xsi:element name="restID" /> 
+							<xsi:element name="Cuisine" />
+
+							<!-- Menu List - complex -->
+							<xsi:element name="MenuList" maxOccurs="1" minOccurs="1">
+								<xsi:complexType>
+									<xsi:sequence>
+										<!-- Item somplex -->
+										<xsi:element name="Item" minOccurs="0" maxOccurs="unbounded"> 
+											<xsi:complexType>
+												<xsi:sequence>
+													<!-- Type - simple - text -->
+													<!-- Name - simple - text -->
+													<!-- RAID - simple -->
+													<xsi:element name="Type" type="xsi:string" />
+													<xsi:element name="Name" type="xsi:string" />
+													<xsi:element name="Restaurant_Association_ID" />
+
+												</xsi:sequence>
+											</xsi:complexType>
+										</xsi:element>
+									</xsi:sequence>
+								</xsi:complexType>
+							</xsi:element>
+
+							<!-- Deliverry Cost - simple - optional -->
+							<!-- Eating Times mamdatory -->
+							<xsi:element name="DeliveryCost" minOccurs="0" />
+							<xsi:element name="EatingTimes" />
+
+							<!-- List Of Emp Order 1 and only 1 -->
+							<xsi:element name="ListOfEmpOrder">
+								<xsi:complexType>
+									<xsi:sequence>
+
+										<!-- Employee 1 <=items<= 10 complex -->
+										<xsi:element name="Employee" minOccurs="1" maxOccurs="10">
+											<xsi:complexType>
+												<xsi:sequence>
+													
+													<!-- EmployeeID simple -->
+													<!-- RA_ID simple -->
+													<xsi:element name="EmployeeID" type="xsi:integer"/>
+													<xsi:element name="Restaurant_Association_ID" />
+
+												</xsi:sequence>
+											</xsi:complexType>
+										</xsi:element>
+										
+									</xsi:sequence>
+								</xsi:complexType>
+							</xsi:element>
+
+							<!-- Phone number simple -->
+							<!-- must start with area code 012?? -->
+							<xsi:element name="PhoneNumber" type="xsi:integer" />
+
+							<!-- current simple -->
+							<xsi:element name="Current" type="xsi:boolean"/>
+
+						</xsi:sequence>
+						<xsi:attribute name="Preference" type="xsi:integer" use="optional"/>
+					</xsi:complexType>
+				</xsi:element>		
+			</xsi:sequence>
+		</xsi:complexType>
+	</xsi:element>
+</xsi:schema> 
+

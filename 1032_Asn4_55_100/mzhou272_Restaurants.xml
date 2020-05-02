@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Author: MingCong, ZHOU 
+	Western ID: mzhou272
+	studentNum: 250945414
+	DatelastEdit: March 8th
+-->
+<RestaurantList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mzhou272_Restaurants.xsd"> 
+	<Restaurant Preference="2">	
+		<RestaurantName>Abruzzi&rsquo;s Italian Kitchen</RestaurantName>
+		<restID>Rone</restID>
+		<Cuisine>Italian</Cuisine>
+		<MenuList>
+			<Item>
+				<Type>Pizza</Type>
+				<Name>Deep Dish</Name>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Item>	
+			<Item>
+				<Type>Pizza</Type>
+				<Name>Thin Crust</Name>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Pizza</Type>
+				<Name>Rigatoni</Name>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Pizza</Type>
+				<Name>Conchilgie</Name>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Pizza</Type>
+				<Name>Ziti</Name>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Item>		
+		</MenuList>
+		<DeliveryCost>$10.45</DeliveryCost>
+		<EatingTimes>14</EatingTimes>
+		<ListOfEmpOrder>	
+			<Employee>	
+				<EmployeeID>0</EmployeeID>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>1</EmployeeID>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>2</EmployeeID>
+				<Restaurant_Association_ID>Rone</Restaurant_Association_ID>
+			</Employee>		
+		</ListOfEmpOrder>
+		<PhoneNumber>5195554312</PhoneNumber>
+		<Current>true</Current>		
+	</Restaurant>
+
+	<Restaurant Preference="1">	
+		<RestaurantName>Ozen</RestaurantName>
+		<restID>Rtwo</restID>
+		<Cuisine>Japanese</Cuisine>
+		<MenuList>
+			<Item>
+				<Type>Sushi</Type>
+				<Name>Crab</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>	
+			<Item>
+				<Type>Sushi</Type>
+				<Name>Ikura</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Sushi</Type>
+				<Name>Masago</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Tempura</Type>
+				<Name>Shrimp</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Tempura</Type>
+				<Name>Vegatable</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Soup</Type>
+				<Name>Nabeyaki Udon</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Soup</Type>
+				<Name>Yosenabe</Name>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Item>	
+		</MenuList>
+		<DeliveryCost>$14.00</DeliveryCost>
+		<EatingTimes>23</EatingTimes>
+		<ListOfEmpOrder>	
+			<Employee>	
+				<EmployeeID>0</EmployeeID>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>1</EmployeeID>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>2</EmployeeID>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Employee>	
+			<Employee>
+				<EmployeeID>3</EmployeeID>
+				<Restaurant_Association_ID>Rtwo</Restaurant_Association_ID>
+			</Employee>	
+		</ListOfEmpOrder>
+		<PhoneNumber>5195553200</PhoneNumber>
+		<Current>true</Current>		
+	</Restaurant>
+
+	<Restaurant Preference="3">	
+		<RestaurantName>Sherlock's Hearth &amp; Ember</RestaurantName>
+		<restID>Rthree</restID>
+		<Cuisine>English</Cuisine>
+		<MenuList>
+			<Item>
+				<Type>Dinner</Type>
+				<Name>Bangers and Mash</Name>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Item>	
+			<Item>
+				<Type>Dinner</Type>
+				<Name>Liver and Onions</Name>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Starters</Type>
+				<Name>Grilled Halloumi &lt;White Cheese&gt;</Name>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Item>
+			<Item>
+				<Type>Starters</Type>
+				<Name>Panko Coated Squid Rings</Name>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Item>
+		</MenuList>
+		<DeliveryCost>$21.37</DeliveryCost>
+		<EatingTimes>14</EatingTimes>
+		<ListOfEmpOrder>	
+			<Employee>	
+				<EmployeeID>0</EmployeeID>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>1</EmployeeID>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Employee>
+			<Employee>
+				<EmployeeID>2</EmployeeID>
+				<Restaurant_Association_ID>Rthree</Restaurant_Association_ID>
+			</Employee>		
+		</ListOfEmpOrder>
+		<PhoneNumber>5195558888</PhoneNumber>
+		<Current>false</Current>		
+	</Restaurant>
+</RestaurantList>
